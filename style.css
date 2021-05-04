@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(0, 255, 221), rgb(3, 109, 248));
+    display: grid;
+    place-content: center;
+}
+
+
+.box {
+    height: 500px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 25px;
+}
+
+form {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.text-field {
+    width: 320px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.add {
+    background: #8F48E9;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+}
+
+.pending-task {
+    margin-top: 20px;
+    max-height: 30%;
+    overflow-x: scroll;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.todos {
+    margin-top: 10px;
+    display: flex;
+    width: 340px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: #DDDDDD;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.icon {
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    width: 25px;
+    font-size: 25px;
+    height: 25px;
+}
+
+.delete {
+    background: rgb(233, 75, 62);
+}
+
+.complete {
+    background: rgb(103, 234, 204);
+}
+
+.completed-task {
+    margin-top: 50px;
+    height: 30%;
+    overflow-x: scroll;
+}
